@@ -231,7 +231,7 @@ netops    Cleartext-Password := "<password>"
 ![AAA debug](images/16-aaa-debug-fallback.png)
 *Figure 16 – Debug output: the router declares the server dead, finds no active RADIUS servers, uses the local method, and authorization succeeds at level 15.*
 
-**Test B: the tunnel goes down**
+**Test B: The tunnel goes down**
 
 ![Tunnel shutdown](images/17-tunnel-shutdown.png)
 *Figure 17 – `Tunnel0` is shut down: ISAKMP goes off and the line protocol drops.*
