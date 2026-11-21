@@ -216,7 +216,7 @@ netops    Cleartext-Password := "<password>"
 *Figure 12 – Server log: successful logins from both `HQ-Router` and `Branch-Router` (the Branch request crosses the VPN), plus rejected attempts.*
 
 ![Accounting records](images/13-accounting-records.png)
-*Figure 13 – Accounting records on the server: a Start and a Stop record for each login session, with user name and timestamp.*
+*Figure 13 – Accounting records on the server: a Start and a Stop record for each login session with user name.*
 
 ### Phase 4 · Failure and recovery tests
 
